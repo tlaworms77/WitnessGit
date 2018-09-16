@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/start_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ListView
+        android:background="#263e6c"
+        android:id="@+id/notification"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:divider="@android:color/transparent"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:dividerHeight="10dp"/>
+
+    <!--listview 사이의 구분선 android:divider="#ffcc22"android:dividerHeight="1.5dp"-->
+
+
+</LinearLayout>

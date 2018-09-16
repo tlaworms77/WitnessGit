@@ -1,0 +1,80 @@
+#library license
+다음 Activity들은 Apache License 2.0을 따릅니다.
+
+ - com.witness.circleindicator.CircleIndicator
+ - com.witness.circleindicator.SnackbarBehavior
+
+ Copyright (C) 2014 relex
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+
+ - com.witness.discretescrollview.transform.DiscreteScrollItemTransformer
+ - com.witness.discretescrollview.transform.Pivot
+ - com.witness.discretescrollview.transform.ScaleTransformer
+ - com.witness.discretescrollview.util.ScrollListenerAdapter
+ - com.witness.discretescrollview.Direction
+ - com.witness.discretescrollview.DiscreteScrollLayoutManager
+ - com.witness.discretescrollview.DiscreteScrollView
+ - com.witness.discretescrollview.DSVOrientation
+ - com.witness.discretescrollview.InfiniteScrollAdapter
+ - com.witness.discretescrollview.RecylerViewProxy
+ - com.witness.user.StartAdapter
+
+ Copyright 2017 Yaroslav Shevchuk
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+
+  + DiscreteSrollView/sample/src/main/res/layout/activity_shop.xml  : activity_start로 이름 변경, Button Image 및 ID 변경
+
+-------------------------------------------------------------------------------------------------------------------------
+ - com.witness.user.SoftKeyboard
+
+ Author: Felipe Herranz (felhr85@gmail.com)
+ Contributors:Francesco Verheye (verheye.francesco@gmail.com)
+ Israel Dominguez (dominguez.israel@gmail.com)
+
+#image license
+[exchange]
+  : <div>Icons made by <a href="https://www.flaticon.com/authors/cursor-creative" title="Cursor Creative">Cursor Creative</a>
+   from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+   <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+ [flashoff, flashon, light, map, mirror, speaker]
+  : <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>
+   from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+   <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+ [photo, sun2]
+  : <div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a>
+   from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+   <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+ [send, turnoff, turnon]
+  : <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a>
+   from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+   <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+ [settings]
+  : <div>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a>
+   from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+   <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+ [notice_img1]
+  : Photo by rawpixel on Unsplash
+ [notice_img2]
+  : Photo by Ben White on Unsplash

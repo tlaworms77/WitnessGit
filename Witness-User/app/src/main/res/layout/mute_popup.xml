@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mute_sub"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:gravity="center"
+    android:padding="15dp"
+    >
+
+
+    <Switch
+            android:id="@+id/local_amute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Local Mute"
+            android:layout_weight="0.5"
+
+            />
+        <Switch
+            android:id="@+id/remote_amute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Remote Mute"
+            android:layout_weight="0.5"
+            />
+
+    </LinearLayout>

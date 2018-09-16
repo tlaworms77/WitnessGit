@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp"
+        android:left="10dp"
+        >
+        <shape
+            android:shape="oval">
+            <solid android:color="@color/shopFabRipple" />
+        </shape>
+
+    </item>
+</layer-list>

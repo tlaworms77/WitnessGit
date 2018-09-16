@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.witness.gov">
+
+    <!-- PlayRTC SDK permission START -->
+
+    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!-- PlayRTC SDK permission END -->
+
+    <!-- PlayRTC SDK 로그 파일 SDCARD 지정 시  -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <!-- PlayRTC SDK AudioManager 설정 시 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+
+    <!-- Using the GPS -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <!--Getting PhoneNumber-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!--
+     * SharedPreference
+      - since 23 verson, default backup as a task stores app's data including preferences to cloud.
+      - solution
+       : add xmlns:tools="http://schemas.android.com/tools"
+       : add android:allowBackup="false"
+       : add tools:replace="android:allowBackup"
+         // merge manifest
+          우선순위에 따라 병합, 지정된 특징의 반영도 다름
+          - replace : 하위순위 manifest 특징 -> 현재 manifest 특징으로 교체.
+                      항상 상위순위의 manifest 값만 이용(같은 특징이 존재함에도 불구하고)
+     -->
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        tools:replace="android:allowBackup"
+          >
+
+        <!--<meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBDO4fZD-vFx4uhKGjALVCHcCrQNXUZMQM" />-->
+
+
+        <!--<activity android:name=".ui.TestActivity"
+            android:exported="true"
+            android:configChanges="orientation|screenSize"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+-->
+        <activity android:name=".ui.LoadingActivity"
+            android:configChanges="orientation|screenSize"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.LoginActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <activity android:name=".ui.SignUpActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <activity android:name=".ui.StartActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <activity android:name=".ui.WaitActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <activity android:name=".PlayRTCActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+    </application>
+
+</manifest>
